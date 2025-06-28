@@ -1,0 +1,71 @@
+body {
+  margin: opx;
+  padding: 0px;
+  background-image: url(back.jpg);
+  background-size: cover;
+  height: 100vh;
+  font-family: sans-serif;
+}
+.box2 {
+  height: 500px;
+  width: 230px;
+  background-color: rgb(2, 0, 5, 0.905);
+  opacity: 80%;
+  position: absolute;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  padding: 30px 30px;
+  border-radius: 30px;
+}
+h1 {
+  margin: 0px;
+  padding: 0 0 0 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.err {
+  color: #fa0909;
+}
+.box2 input {
+  width: 100%;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.box2 input[type="text"],
+input[type="password"],
+input[type="email"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  outline: none;
+  height: 40px;
+  font-size: 15px;
+}
+.box2 input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background-color: aquamarine;
+  color: #fff;
+  border-radius: 20px;
+}
+.sex-group {
+  display: flex;
+  /* align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  font-size: 14px; */
+}
+
+/* .sex-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+} */
+.box2 input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #ffc107;
+}
